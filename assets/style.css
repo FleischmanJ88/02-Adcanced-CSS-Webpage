@@ -1,0 +1,227 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%px;
+    background-color: midnightblue;
+    height: 100px;
+}
+
+h1 {
+    font-size: 200%;
+    padding-left: 40px;
+    padding-right: 20px;
+    color: midnightblue;
+    background-color: forestgreen;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+nav a {
+    font-weight: bold;
+    color: forestgreen;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: solid 2px forestgreen;
+}
+
+.figsub {
+    display: flex;
+    flex-direction: row;
+    background-image: url("tbd");
+    height: 275px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.figcapsub {
+    font-size: 150%;
+    background-color: forestgreen;
+    color: midnightblue;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.aboutme {
+  display: flex;
+  color:midnightblue;
+}
+
+.aboutme0 {
+  height: 150px;
+}
+
+p {
+  padding-left: 15px;
+}
+
+img {
+  height: 150px;
+}
+
+h2 {
+    margin-right: 20px;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    font-size: 300%;
+    color: midnightblue;
+    min-width: 300px;
+    text-align: end;
+    align-items: flex-start;
+    border-right: solid 4px midnightblue;
+}
+
+.work0 {
+  margin-bottom: 0;
+}
+.work {
+    height: 710px;
+}
+
+.figcapwork {
+    text-align: left;
+    font-size: 100%;
+    background-color: forestgreen;
+    color: midnightblue;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.worksection1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: calc(1);
+}
+
+.mainwork {
+    display: flex;
+    flex-direction: row;
+    background-image: url(tbd);
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: solid 4px forestgreen;
+    margin-right: 30px;
+}
+
+figure.mainwork, figure.work1, figure.work2, figure.work3, figure.work4 {
+  background-color:forestgreen;
+  opacity: .6;
+}
+figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hover, figure.work4:hover {
+  opacity: 1;
+}
+
+.work1 {
+    display: flex;
+    flex-direction: row;
+    flex-grow:1;
+    background-image: url(tbd);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: solid 4px forestgreen;
+    margin-right: 30px;
+
+}
+
+.worksection2, .worksection3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: calc(1);
+}
+
+.work2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-image: url(tbd);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: solid 4px forestgreen;
+    margin-right: 30px;
+}
+
+.work3 {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-image: url(tbd);
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border: solid 4px forestgreen;
+  margin-right: 30px;
+}
+
+.work4 {
+  display: flex;
+  flex-direction: row;
+  flex-grow:1;
+  background-image: url(tbd);
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border: solid 4px forestgreen;
+  margin-right: 30px;
+}
+
+
+#footer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 300px;
+    margin-right: 20px;
+    width: 500px;
+
+}
+
+#footer a {
+    font-weight: bold;
+    color: midnightblue;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: solid 2px midnightblue;
+}
