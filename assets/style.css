@@ -3,14 +3,15 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
+    background-color: rgb(212, 217, 245);
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4%px;
-    background-color: midnightblue;
+    padding: 4px;
+    background-color: rgb(13, 13, 65);
     height: 100px;
 }
 
@@ -18,8 +19,7 @@ h1 {
     font-size: 200%;
     padding-left: 40px;
     padding-right: 20px;
-    color: midnightblue;
-    background-color: forestgreen;
+    background-color: rgb(44, 108, 168);
 }
 
 nav ul {
@@ -31,16 +31,17 @@ nav ul {
 
 nav a {
     font-weight: bold;
-    color: forestgreen;
+    background-color: rgb(13, 13, 65);
     text-decoration: none;
     padding-bottom: 5px;
-    border-bottom: solid 2px forestgreen;
+    color: rgb(44, 108, 168);
+    border-bottom-style: solid;
 }
 
 .figsub {
     display: flex;
     flex-direction: row;
-    background-image: url("tbd");
+    background-image: url("./images/Waterfall.png");
     height: 275px;
     width: 100%;
     margin-bottom: 25px;
@@ -50,10 +51,9 @@ nav a {
     align-items: flex-end;
 }
 
-.figcapsub {
+.caption {
     font-size: 150%;
-    background-color: forestgreen;
-    color: midnightblue;
+    background-color: rgb(44, 108, 168);
     margin-bottom: 25px;
     margin-right: 25px;
     padding-left: 10px;
@@ -67,7 +67,6 @@ section {
 
 .aboutme {
   display: flex;
-  color:midnightblue;
 }
 
 .aboutme0 {
@@ -89,12 +88,12 @@ h2 {
     padding-right: 15px;
     padding-bottom: 0px;
     font-size: 300%;
-    color: midnightblue;
+    color: rgb(13, 13, 65);
     min-width: 300px;
     text-align: end;
     align-items: flex-start;
-    border-right: solid 4px midnightblue;
-}
+    border-right: solid 4px rgb(13, 13, 65);
+    background-color: rgb(212, 217, 245);}
 
 .work0 {
   margin-bottom: 0;
@@ -106,8 +105,8 @@ h2 {
 .figcapwork {
     text-align: left;
     font-size: 100%;
-    background-color: forestgreen;
-    color: midnightblue;
+    background-color: white;
+    color: rgb(13, 13, 65);
     margin-bottom: 25px;
     margin-right: 25px;
     padding-left: 10px;
@@ -123,20 +122,19 @@ h2 {
 .mainwork {
     display: flex;
     flex-direction: row;
-    background-image: url(tbd);
+    background-image: url(./images/BigMain.png);
     height: 350px;
     width: 100%;
     background-size: cover;
     background-position: center;
     justify-content: flex-start;
     align-items: flex-end;
-    border: solid 4px forestgreen;
+    border: solid 4px rgb(13, 13, 65);
     margin-right: 30px;
 }
 
 figure.mainwork, figure.work1, figure.work2, figure.work3, figure.work4 {
-  background-color:forestgreen;
-  opacity: .6;
+  opacity: .8;
 }
 figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hover, figure.work4:hover {
   opacity: 1;
@@ -146,13 +144,13 @@ figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hove
     display: flex;
     flex-direction: row;
     flex-grow:1;
-    background-image: url(tbd);
+    background-image: url(./images/Tab1.png);
     height: 150px;
     background-size: cover;
     background-position: center;
     justify-content: flex-start;
     align-items: flex-end;
-    border: solid 4px forestgreen;
+    border: solid 4px rgb(13, 13, 65);
     margin-right: 30px;
 
 }
@@ -168,13 +166,13 @@ figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hove
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    background-image: url(tbd);
+    background-image: url(./images/Tab2.png);
     height: 150px;
     background-size: cover;
     background-position: center;
     justify-content: flex-start;
     align-items: flex-end;
-    border: solid 4px forestgreen;
+    border: solid 4px rgb(13, 13, 65);
     margin-right: 30px;
 }
 
@@ -182,13 +180,13 @@ figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hove
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  background-image: url(tbd);
+  background-image: url(./images/Tab3.png);
   height: 150px;
   background-size: cover;
   background-position: center;
   justify-content: flex-start;
   align-items: flex-end;
-  border: solid 4px forestgreen;
+  border: solid 4px rgb(13, 13, 65);
   margin-right: 30px;
 }
 
@@ -196,16 +194,15 @@ figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hove
   display: flex;
   flex-direction: row;
   flex-grow:1;
-  background-image: url(tbd);
+  background-image: url(./images/Tab4.png);
   height: 150px;
   background-size: cover;
   background-position: center;
   justify-content: flex-start;
   align-items: flex-end;
-  border: solid 4px forestgreen;
+  border: solid 4px rgb(13, 13, 65);
   margin-right: 30px;
 }
-
 
 #footer {
     display: flex;
@@ -220,8 +217,8 @@ figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hove
 
 #footer a {
     font-weight: bold;
-    color: midnightblue;
+    color: rgb(13, 13, 65);
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: solid 2px midnightblue;
+    border-bottom: solid 2px rgb(13, 13, 65);
 }
