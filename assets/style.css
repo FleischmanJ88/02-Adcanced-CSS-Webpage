@@ -40,7 +40,7 @@ nav a {
   transition: 0.8s ease;
 }
 
-nav a:hover {
+nav a:hover, nav a:focus {
   color: rgb(13, 13, 65);
   background-color: rgb(44, 108, 168);
 }
@@ -247,4 +247,5 @@ figure.work4:hover {
 #footer a:hover {
   color: rgb(44, 108, 168);
   background-color: rgb(13, 13, 65);
+
 }
