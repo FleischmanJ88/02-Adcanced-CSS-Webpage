@@ -37,7 +37,7 @@ https://github.com/FleischmanJ88/02-Adcanced-CSS-Webpage
 
 ### <strong>Screenshot</strong>
 
-TBD
+<img src="./assets/images/Jeff_Fleischman_Portfolio.gif"/>
 
 ### <strong>Contact Information</strong>
 
