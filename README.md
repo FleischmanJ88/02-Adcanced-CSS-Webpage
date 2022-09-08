@@ -33,7 +33,7 @@ For Module 2, we were given the task of building a portfolio that showcases our 
 
 ### <strong>Website Link</strong>
 
-https://github.com/FleischmanJ88/02-Adcanced-CSS-Webpage
+https://fleischmanj88.github.io/02-Adcanced-CSS-Webpage/
 
 ### <strong>Screenshot</strong>
 
