@@ -1,4 +1,4 @@
-# 02-Adcanced-CSS-Webpage
+# 02-Advanced-CSS-Webpage
 
 ## <strong>Description</strong>
 
