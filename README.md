@@ -10,7 +10,7 @@ For Module 2, we were given the task of building a portfolio that showcases our 
 
 ♦ Present developers name, a recent photo or avatar, and links to sections about me, my work, and how to contact me
 
-♦ Clicking on links navigates to corresponding section
+♦ Clicking on  links navigates to corresponding section
 
 ♦ UI scrolls to section of titled images
 
